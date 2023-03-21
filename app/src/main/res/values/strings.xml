@@ -1,0 +1,164 @@
+<resources>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+
+
+    <string name="app_name">Mahjong Scorer</string>
+    <string name="new_game_title">New Game</string>
+    <string name="action_about">About</string>
+    <string name="aboutMahjongScorerTitle">Mahjong Scorer</string>
+    <string name="aboutMessage">Version %s</string>
+    <string name="last_modified_label">Last Played:</string>
+    <string name="created_label">Started:</string>
+    <string name="rotateWind">Rotate Wind</string>
+    <string name="saveAndStart">Save and Start</string>
+    <string name="east">East</string>
+    <string name="south">South</string>
+    <string name="west">West</string>
+    <string name="north">North</string>
+    <string name="nameHint">Name</string>
+    <string name="prevailingWind">Prevailing wind:</string>
+    <string name="descCharacters1">One characters</string>
+    <string name="descCharacters2">Two characters</string>
+    <string name="descCharacters3">Three characters</string>
+    <string name="descCharacters4">Four characters</string>
+    <string name="descCharacters5">Five characters</string>
+    <string name="descCharacters6">Six characters</string>
+    <string name="descCharacters7">Seven characters</string>
+    <string name="descCharacters8">Eight characters</string>
+    <string name="descCharacters9">Nine characters</string>
+    <string name="descCircles1">One circles</string>
+    <string name="descCircles2">Two circles</string>
+    <string name="descCircles3">Three circles</string>
+    <string name="descCircles4">Four circles</string>
+    <string name="descCircles5">Five circles</string>
+    <string name="descCircles6">Six circles</string>
+    <string name="descCircles7">Seven circles</string>
+    <string name="descCircles8">Eight circles</string>
+    <string name="descCircles9">Nine circles</string>
+    <string name="descBamboo1">One bamboo</string>
+    <string name="descBamboo2">Two bamboo</string>
+    <string name="descBamboo3">Three bamboo</string>
+    <string name="descBamboo4">Four bamboo</string>
+    <string name="descBamboo5">Five bamboo</string>
+    <string name="descBamboo6">Six bamboo</string>
+    <string name="descBamboo7">Seven bamboo</string>
+    <string name="descBamboo8">Eight bamboo</string>
+    <string name="descBamboo9">Nine bamboo</string>
+    <string name="chow">Chow</string>
+    <string name="pung">Pung</string>
+    <string name="kong">Kong</string>
+    <string name="pair">Pair</string>
+    <string name="descEast">East</string>
+    <string name="descSouth">South</string>
+    <string name="descWest">West</string>
+    <string name="descNorth">North</string>
+    <string name="descWhiteDragon">White Dragon</string>
+    <string name="descRedDragon">Red Dragon</string>
+    <string name="descGreenDragon">Green Dragon</string>
+    <string name="exposed">Exposed</string>
+    <string name="concealed">Concealed</string>
+    <string name="enteredTile">Entered Tile</string>
+    <string name="deleteButton">Delete button</string>
+    <string name="mahjong">Mahjong</string>
+    <string name="multiMahjongErrorMessage">Only one player can have a Mahjong hand.</string>
+    <string name="cannotAddGroupErrorMessage">No more tiles can be added.</string>
+    <string name="mahjongHandMultipliersDialogTitle">Mahjong hand completed by...</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="dontSave">Continue without saving</string>
+    <string name="deleteGame">Delete game</string>
+
+    <string name="questionMahjongByLooseTile">A loose tile</string>
+    <string name="questionMahjongByWallTile">A tile from the wall</string>
+    <string name="questionMahjongByLastWallTile">The last available wall tile</string>
+    <string name="questionMahjongByLastDiscard">The last available discard</string>
+    <string name="questionMahjongByRobbingKong">Robbing a Kong</string>
+    <string name="questionMahjongByOnlyPossibleTile">The only possible tile to complete</string>
+    <string name="questionMahjongByOriginalCall">Original Call</string>
+    <string name="questionMahjongPairConcealed">Pair is concealed</string>
+    <string name="questionNonMahjongByOriginalCall"></string>
+
+    <string name="action_show_hand_completion_dialog">Completed by...</string>
+    <string name="action_edit_previous_round">Edit last round</string>
+    <string name="action_rotate_seat_display">Rotate seats</string>
+    <string name="action_edit_players">Edit Players</string>
+    <string name="action_select_scoring_scheme">Select scoring</string>
+    <string name="action_show_game_info">Game detail</string>
+    <string name="action_delete_game">Delete game</string>
+
+    <string name="selectScoringSchemeDialogTitle">Scoring scheme</string>
+    <string name="scoringSchemeBritish">British (standard)</string>
+    <string name="scoringSchemeBritish17Tile">British 17 Tile</string>
+
+    <!-- non-Mahjong hand scores -->
+    <string name="scoreDescriptionOriginalCallHandScore">Original call</string>
+
+    <!-- Mahjong hand scores -->
+    <string name="scoreDescriptionMahjongHandScore">Mahjong</string>
+    <string name="scoreDescriptionMahjongByNoScoreHandScore">No score</string>
+    <string name="scoreDescriptionNoChowsHandScore">No chows</string>
+    <string name="scoreDescriptionSingleSuitHandScore">Single suit</string>
+    <string name="scoreDescriptionAllMajorHandScore">All major</string>
+    <string name="scoreDescriptionAllConcealedHandScore">All concealed</string>
+    <string name="scoreDescriptionMahjongByLooseTileHandScore">Mahjong by loose tile</string>
+    <string name="scoreDescriptionMahjongByOnlyPossibleTileHandScore">Mahjong by only possible tile</string>
+    <string name="scoreDescriptionMahjongByWallTileHandScore">Mahjong by wall tile</string>
+    <string name="scoreDescriptionMahjongByLastWallTileHandScore">Mahjong by last wall tile</string>
+    <string name="scoreDescriptionMahjongByLastDiscardHandScore">Mahjong by last discard</string>
+    <string name="scoreDescriptionMahjongByRobbingKongHandScore">Robbing kong</string>
+    <string name="scoreDescriptionMahjongByOriginalCallHandScore">Original call</string>
+
+    <string name="notificationEastPlayer">%s is now East</string>
+    <string name="enterHandActivityTitle">Enter Hand</string>
+    <string name="gameInfoActivityTitle">Game Detail</string>
+
+    <string name="scoringSchemeLabel">Scoring: %s</string>
+
+    <!-- Confirmation dialog for navigation that will lose entered hands. -->
+    <plurals name="titleConfirmLoseHand">
+        <item quantity="one">Discard entered hand?</item>
+        <item quantity="other">Discard %d entered hands?</item>
+    </plurals>
+    <plurals name="questionConfirmLoseHand">
+        <item quantity="one">A hand has been entered but the round is not complete.  If you continue the entered hand will not be saved to the game.</item>
+        <item quantity="other">Hands have been entered but the round is not complete.  If you continue the %d entered hands will not be saved to the game.</item>
+    </plurals>
+
+    <string name="prevailingWindNote">Prev: %s</string>
+    <string name="ownWindNote">Own: %s</string>
+
+    <string name="gameStart">Game start.</string>
+    <string name="roundNumber">Round %s.</string>
+
+    <plurals name="titleGameFinished">
+        <item quantity="one">%s won!</item>
+        <item quantity="other">Wow! It\'s a draw.</item>
+    </plurals>
+    <plurals name="messageGameFinished">
+        <item quantity="one">Congratulations %s.  Your winning score is %d.</item>
+        <item quantity="other">Congratulations to %s.  You finished with equal scores of %d.</item>
+    </plurals>
+
+    <string name="notificationGameFinished">This game is finished.</string>
+    <string name="notificationEmptyPlayerName">Each player must have a name.</string>
+
+    <string name="editPlayersActivityTitle">Edit players</string>
+    <string name="createGameInstruction">1. Enter player names according to their seating positions. For an unoccupied seat leave the name empty.\n\n2. Use <b>ROTATE WIND</b> to set the starting player\'s wind to East.\n\n3. On the menu, use <b>Select scoring</b> to change the scoring scheme.\n\n4. Select <b>SAVE AND START</b> to start the game.</string>
+    <string name="scoring_scheme">Scoring scheme:</string>
+    <string name="roundsPlayed">Rounds played:</string>
+
+    <string name="confirmGameDeleteTitle">Delete game?</string>
+    <string name="confirmGameDeleteMessage">Are you sure you want to delete the game?</string>
+    <string name="confirm2GameDeleteTitle">Are you sure?</string>
+    <string name="confirm2GameDeleteMessage">Are you really sure you want to delete the game?\n\nThis action cannot be undone.\n\nAll information about this game will be removed and you will not be able to recover the game after it is deleted.</string>
+
+</resources>

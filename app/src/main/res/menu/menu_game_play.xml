@@ -1,0 +1,30 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="house.mcintosh.mahjong.ui.GamePlayActivity">
+    <item
+        android:id="@+id/action_edit_previous_round"
+        android:orderInCategory="100"
+        android:title="@string/action_edit_previous_round"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_rotate_seat_display"
+        android:orderInCategory="100"
+        android:title="@string/action_rotate_seat_display"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_edit_players"
+        android:orderInCategory="100"
+        android:title="@string/action_edit_players"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_show_game_info"
+        android:orderInCategory="100"
+        android:title="@string/action_show_game_info"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_delete_game"
+        android:orderInCategory="100"
+        android:title="@string/action_delete_game"
+        app:showAsAction="never" />
+</menu>
